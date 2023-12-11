@@ -5,8 +5,8 @@ Create service that always return 403
 
 ## How to build
 
-docker build -t my-nginx-app .
+docker build -t app-403 .
 
 ## How to run
 
-docker run -p 8080:80 my-nginx-app
+docker run -p 8080:80 app-403
